@@ -1,0 +1,27 @@
+# Add verified education dates and earlier degrees here when available.
+education:
+- qualification: Ph.D. student
+  institution: Sejong University
+  location: South Korea
+interests:
+- Fully homomorphic encryption and CKKS
+- Privacy-preserving federated learning
+- Secure multi-party computation and private inference
+research:
+- title: Privacy-preserving machine learning
+  description: CKKS-based federated learning experiments using Python, PyTorch, and
+    OpenFHE.
+- title: Wearable radar–IMU gesture recognition
+  description: Research on hand gesture recognition under head motion, including data
+    processing, model training, and experimental evaluation.
+  url: https://github.com/Hidogyeong/Label-efficient-head-motion-robust-wearable-radar-HGR-via-motion-domain-radar-IMU-fusion
+skills:
+- name: Python and PyTorch
+  description: Data processing, model training, and experimental evaluation
+- name: C++ and OpenFHE
+  description: CKKS-based federated learning experiments
+- name: Linux and Git
+  description: Research workflows and code management
+- name: Verilog — earlier experience
+  description: FPGA image-processing RTL design
+  url: https://github.com/Hidogyeong/FPGA-Camera-Image-Processing

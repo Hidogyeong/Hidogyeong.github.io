@@ -1,0 +1,13 @@
+# Shared by Home, CV, and Publications. Add each paper once.
+- title: Label-efficient head-motion-robust wearable radar hand gesture recognition
+    via motion-domain radar–IMU fusion
+  authors:
+  - Dokyeong Kang
+  - Seongjoo Lee
+  venue: ICT Express
+  year: 2026
+  doi: https://doi.org/10.1016/j.icte.2026.09.001
+  code: https://github.com/Hidogyeong/Label-efficient-head-motion-robust-wearable-radar-HGR-via-motion-domain-radar-IMU-fusion
+  bibtex: /files/radar-imu-hgr.bib
+  summary: Wearable radar–IMU fusion for hand gesture recognition under head motion
+    and limited training labels.

@@ -1,0 +1,8 @@
+.publication-entry { margin: 1.1rem 0 1.8rem; padding: 0 0 1.1rem; border-bottom: 1px solid var(--global-border-color); }
+.publication-entry h3 { margin: 0 0 .55rem; font-size: 1.08em; line-height: 1.55; }
+.publication-entry p { margin: .4rem 0; }
+.publication-meta { font-size: .88em; }
+.publication-links { font-size: .85em; font-weight: 600; }
+.archive > p { max-width: 76ch; }
+.author__avatar img { background: #edf2f6; }
+@media print { .masthead, .sidebar, .page__footer, .publication-links { display: none !important; } .archive { width: 100% !important; padding: 0 !important; } #main { padding: 0; max-width: none; } a { color: inherit !important; } }

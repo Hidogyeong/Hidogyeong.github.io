@@ -1,13 +1,12 @@
 name: Jekyll build
 
 on:
-  # Run after bad-pr check
-  workflow_run:
-    workflows: ["Cleanup bad PR"]
-    branches: [main]
-    types:
-      - completed
-      
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
 permissions:
   contents: read
 
@@ -21,14 +20,20 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2"
+          ruby-version: '3.2'
           bundler-cache: true
-
       - name: Build site
         run: bundle exec jekyll build --strict_front_matter
         env:
           JEKYLL_ENV: production
+      - name: Check generated pages
+        run: |
+          test -s _site/index.html
+          test -s _site/cv/index.html
+          test -s _site/publications/index.html
+          test -s _site/assets/css/main.css
+          test -s _site/assets/css/fontawesome.css
+          test -s _site/files/radar-imu-hgr.bib

@@ -1,0 +1,7 @@
+{% assign paper = include.paper %}
+<article class="publication-entry">
+  <h3><a href="{{ paper.doi | escape }}">{{ paper.title | escape }}</a></h3>
+  <p class="publication-meta">{% for author in paper.authors %}{% if author == site.name %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}. <em>{{ paper.venue | escape }}</em>, {{ paper.year }}.</p>
+  {% unless include.compact %}<p>{{ paper.summary | escape }}</p>{% endunless %}
+  <p class="publication-links"><a href="{{ paper.doi | escape }}">Paper</a> · <a href="{{ paper.code | escape }}">Code</a> · <a href="{{ paper.bibtex | relative_url }}">BibTeX</a></p>
+</article>
