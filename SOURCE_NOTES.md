@@ -7,4 +7,6 @@
 
 The prepared site has no invented earlier degrees, education dates, contact details, awards, or unpublished manuscripts. Those can be added after the author supplies the details.
 
-The local content preview uses the prepared Liquid templates and the AcademicPages styles. It is a preview of the content and layout, not a completed GitHub Pages deployment. Site settings, YAML data, internal links, sample removal, Liquid rendering, and Sass compilation were checked locally. The final Ruby/Jekyll build and visual browser check remain for the new repository: a local Ruby/Jekyll runtime was unavailable, and the preview-browser download timed out during preparation.
+The standalone local preview uses the prepared Liquid templates and the AcademicPages styles. Site settings, YAML data, internal links, sample removal, Liquid rendering, and Sass compilation were checked locally.
+
+The initial personalized site at commit `4415884caeefb5377cb41d9c8d55e6af556b0d85` passed the `Jekyll build` workflow and GitHub Pages build/deployment on 2026-09-17. The workflow also confirmed that Home, CV, Publications, both compiled stylesheets, and the bibliography were generated. A visual browser review was not completed in the preparation environment. Use the repository's current Actions results for the latest deployment status.
