@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Dokyeong Kang — Privacy-preserving machine learning</title>
+<desc id="desc">Ph.D. Student at Sejong University. Fully homomorphic encryption, CKKS, and federated learning.</desc>
+<rect width="1200" height="300" rx="20" fill="#102c43"/>
+<g fill="none" stroke="#62c7c0" opacity=".28" stroke-width="1.5">
+<path d="M870 65 980 42 1100 100 1040 211 915 230 870 65M870 65 1040 211M980 42 915 230M1100 100 915 230"/>
+<circle cx="990" cy="144" r="102"/><circle cx="990" cy="144" r="130"/>
+</g>
+<g fill="#62c7c0"><circle cx="870" cy="65" r="5"/><circle cx="980" cy="42" r="5"/><circle cx="1100" cy="100" r="5"/><circle cx="1040" cy="211" r="5"/><circle cx="915" cy="230" r="5"/></g>
+<rect x="54" y="51" width="42" height="4" rx="2" fill="#62c7c0"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="54" y="115" fill="#ffffff" font-size="48" font-weight="700">Dokyeong Kang</text>
+<text x="56" y="155" fill="#cfdee8" font-size="22">Ph.D. Student · Sejong University</text>
+<text x="56" y="213" fill="#7ee1d6" font-size="25" font-weight="600">Privacy-preserving machine learning</text>
+<text x="56" y="250" fill="#cfdee8" font-size="18">Fully homomorphic encryption / CKKS / Federated learning</text>
+</g></svg>
