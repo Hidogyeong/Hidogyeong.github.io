@@ -83,3 +83,6 @@
   .research-hero h2, .research-hero .research-eyebrow, .research-hero .research-lead { color: #111; }
   .profile-actions { display: none; }
 }
+
+/* Keep the footer after the content instead of covering the last lines. */
+.page__footer { position: relative; clear: both; bottom: auto; float: none; margin-top: 2rem; }
